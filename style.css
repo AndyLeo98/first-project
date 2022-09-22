@@ -110,11 +110,22 @@ li {
   box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
 }
 
+.cover-img2 {
+  background-image: url("images/bryan-goff-f7YQo-eYHdM-unsplash.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
+}
+
 /* CALL TO ACTION */
 
 .call-to-action {
   font-family: "Playfair Display", serif;
-  color: #e1def6;
+  color: #e2e1eb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,6 +135,7 @@ li {
 
 .welcome {
   font-size: 4rem;
+  padding-bottom: 2rem;
 }
 
 .intro {
@@ -145,7 +157,7 @@ li {
   background-image: linear-gradient(to right, #f1415b, #f21a28);
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 2rem;
   padding: 1.5rem;
   font-family: "Playfair Display", serif;
   font-size: 20px;
@@ -211,6 +223,37 @@ li {
   cursor: pointer;
   transform: scale(1.05);
 }
+
+/* PAGE AINUIDALE */
+
+.eru {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.eru img {
+  background-size: contain;
+  max-width: 600px;
+  max-height: 700px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform 1s;
+  margin-bottom: 3rem;
+}
+
+.text-illu {
+  display: block;
+  max-width: 900px;
+  line-height: 1.7;
+  font-size: 1.25rem;
+  font-family: "Playfair Display", serif;
+  margin: 10px;
+}
+/* END HERE */
 
 .box-valar {
   text-align: center;
