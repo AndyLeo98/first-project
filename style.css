@@ -253,7 +253,6 @@ li {
   font-family: "Playfair Display", serif;
   margin: 10px;
 }
-/* END HERE */
 
 .box-valar {
   text-align: center;
@@ -275,6 +274,73 @@ li {
 .box-valar p {
   padding-top: 1rem;
   font-size: 1.1rem;
+}
+
+/* PAGE VALAR */
+
+.title-page-valar {
+  text-align: center;
+  position: relative;
+  font-family: "Playfair Display", serif;
+}
+
+.title-page-valar h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.title-page-valar h2 {
+  font-size: 1.7rem;
+  font-family: "Berkshire Swash", cursive;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.grid-template {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+
+.grid-template img {
+  max-width: 600px;
+  max-height: 700px;
+  padding-bottom: 1rem;
+}
+
+.god-1,
+.god-2,
+.god-3,
+.god-4 {
+  border: #282f39 solid 2px;
+  margin: 2rem;
+}
+
+.grid-template h3 {
+  font-size: 2rem;
+  padding: 2rem;
+  text-decoration: underline;
+}
+
+.grid-template p {
+  font-size: 1.1rem;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.god-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.god-2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
 }
 
 /* Hover Underline Animation */
@@ -301,6 +367,24 @@ li {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/* CONTACT US FORM */
+
+.row h1 {
+  font-family: "Berkshire Swash", cursive;
+  font-weight: 600;
+  font-size: 72px;
+  color: #282f39;
+  text-align: center;
+}
+
+.row h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #282f39;
+  line-height: 1.5;
 }
 
 /* FOOTER */
